@@ -35,7 +35,7 @@ public class OllamaService {
                 .bodyToFlux(OllamaResponse.class);
     }
 
-    public int add(int x, int y) {
-        return 0;
+    public int add(int x, int y, int z) {
+        return x + y + z;
     }
 }
