@@ -34,4 +34,8 @@ public class OllamaService {
                 .retrieve()
                 .bodyToFlux(OllamaResponse.class);
     }
+
+    public int add(int x, int y) {
+        return 0;
+    }
 }
